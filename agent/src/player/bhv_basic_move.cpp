@@ -1,0 +1,134 @@
+// -*-c++-*-
+
+/*
+ *Copyright:
+
+ Copyright (C) Hidehisa AKIYAMA
+
+ This code is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3, or (at your option)
+ any later version.
+
+ This code is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this code; see the file COPYING.  If not, write to
+ the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
+
+ *EndCopyright:
+ */
+
+/////////////////////////////////////////////////////////////////////
+
+#ifdef HAVE_CONFIG_H
+#include <config.h>
+#endif
+
+#include "bhv_basic_move.h"
+
+#include "strategy.h"
+
+#include "bhv_basic_tackle.h"
+
+#include "basic_actions/basic_actions.h"
+#include "basic_actions/body_go_to_point.h"
+#include "basic_actions/body_intercept.h"
+#include "basic_actions/neck_turn_to_ball_or_scan.h"
+#include "basic_actions/neck_turn_to_low_conf_teammate.h"
+
+#include <rcsc/player/player_agent.h>
+#include <rcsc/player/debug_client.h>
+#include <rcsc/player/intercept_table.h>
+
+#include <rcsc/common/logger.h>
+#include <rcsc/common/server_param.h>
+
+#include "extensions/neck_offensive_intercept_neck.h"
+
+using namespace rcsc;
+
+/*-------------------------------------------------------------------*/
+/*!
+
+ */
+bool
+Bhv_BasicMove::execute( PlayerAgent * agent )
+{
+    dlog.addText( Logger::TEAM,
+                  __FILE__": Bhv_BasicMove" );
+
+    //-----------------------------------------------
+    // tackle
+    if ( Bhv_BasicTackle( 0.8, 80.0 ).execute( agent ) )
+    {
+        return true;
+    }
+    agent->doPointto(ServerParam::i().pitchHalfLength(), 0);
+    const WorldModel & wm = agent->world();
+    /*--------------------------------------------------------*/
+    // chase ball
+    const int self_min = wm.interceptTable().selfStep();
+    const int mate_min = wm.interceptTable().teammateStep();
+    const int opp_min = wm.interceptTable().opponentStep();
+    const int our_min = std::min( self_min, mate_min );
+
+    if ( ! wm.kickableTeammate()
+         && ( self_min <= 3
+              || ( self_min <= mate_min
+                   && self_min < opp_min + 3 )
+              )
+         )
+    {
+        dlog.addText( Logger::TEAM,
+                      __FILE__": intercept" );
+        Body_Intercept().execute( agent );
+        agent->setNeckAction( new Neck_OffensiveInterceptNeck() );
+
+        return true;
+    }
+
+    if (our_min < opp_min){
+        // Do offensive move like unmark or possitioning
+    }
+    else
+    {
+        // Do defensive move like mark or block
+    }
+    // Go to home position
+    const Vector2D home_pos = Strategy::i().getHomePosition( wm, wm.self().unum() );
+    const double dash_power = Strategy::get_normal_dash_power( wm );
+
+    double dist_thr = wm.ball().distFromSelf() * 0.1;
+    if ( dist_thr < 1.0 ) dist_thr = 1.0;
+
+    dlog.addText( Logger::TEAM,
+                  __FILE__": Bhv_BasicMove target=(%.1f %.1f) dist_thr=%.2f",
+                  home_pos.x, home_pos.y,
+                  dist_thr );
+
+    agent->debugClient().addMessage( "BasicMove%.0f", dash_power );
+    agent->debugClient().setTarget( home_pos );
+    agent->debugClient().addCircle( home_pos, dist_thr );
+
+    if ( ! Body_GoToPoint( home_pos, dist_thr, dash_power
+                           ).execute( agent ) )
+    {
+        Body_TurnToBall().execute( agent );
+    }
+
+    if ( wm.kickableOpponent()
+         && wm.ball().distFromSelf() < 18.0 )
+    {
+        agent->setNeckAction( new Neck_TurnToBall() );
+    }
+    else
+    {
+        agent->setNeckAction( new Neck_TurnToBallOrScan( 0 ) );
+    }
+
+    return true;
+}

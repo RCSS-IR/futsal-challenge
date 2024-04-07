@@ -1,0 +1,88 @@
+add_executable(sample_player
+  basic_actions/basic_actions.cpp
+  basic_actions/bhv_before_kick_off.cpp
+  basic_actions/bhv_emergency.cpp
+  basic_actions/bhv_go_to_point_look_ball.cpp
+  basic_actions/bhv_scan_field.cpp
+  basic_actions/body_advance_ball2009.cpp
+  basic_actions/body_clear_ball2009.cpp
+  basic_actions/body_go_to_point.cpp
+  basic_actions/body_go_to_point_dodge.cpp
+  basic_actions/body_hold_ball2008.cpp
+  basic_actions/body_intercept2018.cpp
+  basic_actions/body_kick_one_step.cpp
+  basic_actions/body_kick_to_relative.cpp
+  basic_actions/body_smart_kick.cpp
+  basic_actions/body_stop_ball.cpp
+  basic_actions/body_stop_dash.cpp
+  basic_actions/focus_move_to_point.cpp
+  basic_actions/focus_reset.cpp
+  basic_actions/intention_time_limit_action.cpp
+  basic_actions/intercept_evaluator.cpp
+  basic_actions/kick_table.cpp
+  basic_actions/neck_scan_field.cpp
+  basic_actions/neck_scan_players.cpp
+  basic_actions/neck_turn_to_ball_and_player.cpp
+  basic_actions/neck_turn_to_ball_or_scan.cpp
+  basic_actions/neck_turn_to_goalie_or_scan.cpp
+  basic_actions/neck_turn_to_player_or_scan.cpp
+  basic_actions/neck_turn_to_low_conf_teammate.cpp
+  basic_actions/view_synch.cpp
+  setplay/bhv_go_to_placed_ball.cpp
+  setplay/bhv_prepare_set_play_kick.cpp
+  setplay/bhv_set_play.cpp
+  setplay/bhv_set_play_free_kick.cpp
+  setplay/bhv_set_play_goal_kick.cpp
+  setplay/bhv_set_play_indirect_free_kick.cpp
+  setplay/bhv_set_play_kick_in.cpp
+  setplay/bhv_set_play_kick_off.cpp
+  setplay/bhv_their_goal_kick_move.cpp
+  setplay/intention_wait_after_set_play_kick.cpp
+  extensions/bhv_custom_before_kick_off.cpp
+  extensions/bhv_goalie_chase_ball.cpp
+  extensions/bhv_goalie_free_kick.cpp
+  extensions/neck_default_intercept_neck.cpp
+  extensions/neck_goalie_turn_neck.cpp
+  extensions/neck_offensive_intercept_neck.cpp
+  extensions/view_tactical.cpp
+  extensions/intention_receive.cpp
+  extensions/keepaway_communication.cpp
+  extensions/sample_communication.cpp
+  extensions/sample_freeform_message_parser.cpp
+  bhv_basic_move.cpp
+  bhv_basic_offensive_kick.cpp
+  bhv_basic_tackle.cpp
+  bhv_goalie_basic_move.cpp
+  bhv_penalty_kick.cpp
+  sample_player.cpp
+  strategy.cpp
+  main_player.cpp
+  role_goalie.cpp
+  role_player.cpp
+  )
+
+
+target_include_directories(sample_player
+  PRIVATE
+    ${PROJECT_SOURCE_DIR}/src/
+    ${PROJECT_SOURCE_DIR}/src/player
+    ${PROJECT_SOURCE_DIR}/src/player/planner
+    ${PROJECT_SOURCE_DIR}/src/player/setplay
+    ${PROJECT_BINARY_DIR}
+  PUBLIC
+    ${Boost_INCLUDE_DIRS}
+    ${LIBRCSC_INCLUDE_DIR}
+  )
+
+target_link_libraries(sample_player
+  PUBLIC
+    ${LIBRCSC_LIB}
+    Boost::system
+    ZLIB::ZLIB
+  PRIVATE
+  )
+
+set_target_properties(sample_player
+  PROPERTIES
+  RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin
+  )

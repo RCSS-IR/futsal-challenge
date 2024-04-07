@@ -1,0 +1,5 @@
+version.lo: version.cpp /usr/include/stdc-predef.h ../../config.h \
+ ../../rcsc/version.h
+/usr/include/stdc-predef.h:
+../../config.h:
+../../rcsc/version.h:
