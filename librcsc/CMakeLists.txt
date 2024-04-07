@@ -20,7 +20,7 @@ set(CMAKE_CXX_FLAGS "-W -Wall")
 
 # install destination
 if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
-  set(CMAKE_INSTALL_PREFIX "/usr/local/Challege_lib" CACHE PATH "Install destination path" FORCE)
+  set(CMAKE_INSTALL_PREFIX "$ENV{HOME}/.challenge" CACHE PATH "Install destination path" FORCE)
 endif()
 
 include(GNUInstallDirs)
