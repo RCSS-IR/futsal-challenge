@@ -1,0 +1,187 @@
+{
+	"BUILD_DIR" : "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen",
+	"CMAKE_BINARY_DIR" : "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/soroush/Soccer/Challenge/rcssmonitor-challenge",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/handler.h",
+			"Mu",
+			"EWIEGA46WW/moc_handler.cpp",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser.h",
+			"Mu",
+			"EWIEGA46WW/moc_parser.cpp",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_json.h",
+			"Mu",
+			"EWIEGA46WW/moc_parser_json.cpp",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_v1.h",
+			"Mu",
+			"EWIEGA46WW/moc_parser_v1.cpp",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_v2.h",
+			"Mu",
+			"EWIEGA46WW/moc_parser_v2.cpp",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_v3.h",
+			"Mu",
+			"EWIEGA46WW/moc_parser_v3.cpp",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_v4.h",
+			"Mu",
+			"EWIEGA46WW/moc_parser_v4.cpp",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/team_graphic.h",
+			"Mu",
+			"EWIEGA46WW/moc_team_graphic.cpp",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/types.h",
+			"Mu",
+			"EWIEGA46WW/moc_types.cpp",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/util.h",
+			"Mu",
+			"EWIEGA46WW/moc_util.cpp",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/xpm_tile.h",
+			"Mu",
+			"EWIEGA46WW/moc_xpm_tile.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "HAVE_CONFIG_H", "rcssrcg_EXPORTS" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/soroush/Soccer/Challenge/rcssmonitor-challenge",
+		"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build",
+		"/usr/include/c++/11",
+		"/usr/include/x86_64-linux-gnu/c++/11",
+		"/usr/include/c++/11/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/CMakeFiles/rcssrcg_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/CMakeFiles/rcssrcg_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/handler.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_json.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_v1.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_v2.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_v3.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_v4.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/team_graphic.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/types.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/util.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/xpm_tile.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

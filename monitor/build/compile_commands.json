@@ -1,0 +1,177 @@
+[
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -Drcssrcg_EXPORTS -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -g -fPIC -W -Wall -std=gnu++14 -o CMakeFiles/rcssrcg.dir/rcssrcg_autogen/mocs_compilation.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/mocs_compilation.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -Drcssrcg_EXPORTS -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -g -fPIC -W -Wall -std=gnu++14 -o CMakeFiles/rcssrcg.dir/handler.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/handler.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/handler.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -Drcssrcg_EXPORTS -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -g -fPIC -W -Wall -std=gnu++14 -o CMakeFiles/rcssrcg.dir/parser.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -Drcssrcg_EXPORTS -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -g -fPIC -W -Wall -std=gnu++14 -o CMakeFiles/rcssrcg.dir/parser_v1.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_v1.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_v1.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -Drcssrcg_EXPORTS -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -g -fPIC -W -Wall -std=gnu++14 -o CMakeFiles/rcssrcg.dir/parser_v2.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_v2.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_v2.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -Drcssrcg_EXPORTS -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -g -fPIC -W -Wall -std=gnu++14 -o CMakeFiles/rcssrcg.dir/parser_v3.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_v3.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_v3.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -Drcssrcg_EXPORTS -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -g -fPIC -W -Wall -std=gnu++14 -o CMakeFiles/rcssrcg.dir/parser_v4.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_v4.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_v4.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -Drcssrcg_EXPORTS -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -g -fPIC -W -Wall -std=gnu++14 -o CMakeFiles/rcssrcg.dir/parser_json.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_json.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/parser_json.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -Drcssrcg_EXPORTS -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -g -fPIC -W -Wall -std=gnu++14 -o CMakeFiles/rcssrcg.dir/util.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/util.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/util.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -Drcssrcg_EXPORTS -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -g -fPIC -W -Wall -std=gnu++14 -o CMakeFiles/rcssrcg.dir/types.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/types.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/types.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -Drcssrcg_EXPORTS -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -g -fPIC -W -Wall -std=gnu++14 -o CMakeFiles/rcssrcg.dir/team_graphic.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/team_graphic.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/team_graphic.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -Drcssrcg_EXPORTS -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/rcss/rcg/rcssrcg_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -g -fPIC -W -Wall -std=gnu++14 -o CMakeFiles/rcssrcg.dir/xpm_tile.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/xpm_tile.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/rcss/rcg/xpm_tile.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/rcssmonitor_autogen/mocs_compilation.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/mocs_compilation.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/gzfstream.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/gzfstream.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/gzfstream.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/angle_deg.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/angle_deg.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/angle_deg.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/ball_painter.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/ball_painter.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/ball_painter.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/circle_2d.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/circle_2d.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/circle_2d.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/config_dialog.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/config_dialog.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/config_dialog.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/disp_holder.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/disp_holder.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/disp_holder.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/draw_info_painter.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/draw_info_painter.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/draw_info_painter.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/field_canvas.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/field_canvas.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/field_canvas.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/field_painter.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/field_painter.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/field_painter.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/line_2d.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/line_2d.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/line_2d.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/log_player.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/log_player.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/log_player.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/log_player_slider.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/log_player_slider.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/log_player_slider.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/main_window.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/main_window.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/main_window.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/monitor_client.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/monitor_client.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/monitor_client.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/options.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/options.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/options.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/player_painter.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/player_painter.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/player_painter.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/player_type_dialog.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/player_type_dialog.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/player_type_dialog.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/rcg_handler.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/rcg_handler.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/rcg_handler.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/score_board_painter.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/score_board_painter.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/score_board_painter.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/team_graphic_painter.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/team_graphic_painter.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/team_graphic_painter.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/vector_2d.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/vector_2d.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/vector_2d.cpp"
+},
+{
+  "directory": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src",
+  "command": "/usr/bin/c++ -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build/src/rcssmonitor_autogen/include -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge -I/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -W -Wall -fPIC -std=gnu++14 -o CMakeFiles/rcssmonitor.dir/main.cpp.o -c /home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/main.cpp",
+  "file": "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/src/main.cpp"
+}
+]

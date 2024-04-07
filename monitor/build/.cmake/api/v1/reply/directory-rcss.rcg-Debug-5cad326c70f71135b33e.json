@@ -1,0 +1,83 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"rcss/rcg/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"rcss/rcg/librcssrcg.so.18.0.0",
+				"rcss/rcg/librcssrcg.so.18"
+			],
+			"targetId" : "rcssrcg::@b0086bbf096b314e185b",
+			"targetIndex" : 2,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"rcss/rcg/librcssrcg.so"
+			],
+			"targetId" : "rcssrcg::@b0086bbf096b314e185b",
+			"targetIndex" : 2,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/rcss/rcg",
+			"paths" : 
+			[
+				"rcss/rcg/handler.h",
+				"rcss/rcg/parser.h",
+				"rcss/rcg/parser_v1.h",
+				"rcss/rcg/parser_v2.h",
+				"rcss/rcg/parser_v3.h",
+				"rcss/rcg/parser_v4.h",
+				"rcss/rcg/types.h",
+				"rcss/rcg/util.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "rcss/rcg",
+		"source" : "rcss/rcg"
+	}
+}

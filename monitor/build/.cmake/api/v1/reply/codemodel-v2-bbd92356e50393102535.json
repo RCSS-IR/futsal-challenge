@@ -1,0 +1,139 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "rcss",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-rcss-Debug-ad22e10fe2b0c0a04efe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "rcss"
+				},
+				{
+					"build" : "rcss/rcg",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-rcss.rcg-Debug-5cad326c70f71135b33e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "rcss/rcg",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-442a49c2074a29198c0b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "rcssmonitor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "rcssmonitor::@145eef247bfb46b6828c",
+					"jsonFile" : "target-rcssmonitor-Debug-de652a675de5c995ff35.json",
+					"name" : "rcssmonitor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "rcssmonitor_autogen::@145eef247bfb46b6828c",
+					"jsonFile" : "target-rcssmonitor_autogen-Debug-d74e04c358f0846c6475.json",
+					"name" : "rcssmonitor_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rcssrcg::@b0086bbf096b314e185b",
+					"jsonFile" : "target-rcssrcg-Debug-090d8e20fbeec7eb8442.json",
+					"name" : "rcssrcg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rcssrcg_autogen::@b0086bbf096b314e185b",
+					"jsonFile" : "target-rcssrcg_autogen-Debug-2f242658ddc6634a909c.json",
+					"name" : "rcssrcg_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/soroush/Soccer/Challenge/rcssmonitor-challenge/build",
+		"source" : "/home/soroush/Soccer/Challenge/rcssmonitor-challenge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
