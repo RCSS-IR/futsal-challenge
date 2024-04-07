@@ -113,6 +113,13 @@ Once successfully built, you can install the library file and header files to th
 ```
 sudo make install
 ```
+
+- Then :
+- 
+```
+sudo ldconfig
+```
+
 ## build the base 
 
 - Download it from Release section.
