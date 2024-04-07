@@ -16,7 +16,7 @@ endif()
 set(CMAKE_CXX_FLAGS "-W -Wall")
 
 # check librcsc
-set(LIBRCSC_INSTALL_DIR "/usr/local/Challege_lib/" CACHE PATH "The path where librcsc is installed.")
+set(LIBRCSC_INSTALL_DIR "$ENV{HOME}/.challenge" CACHE PATH "The path where librcsc is installed.")
 
 find_library(LIBRCSC_LIB NAMES rcsc
   PATHS ${LIBRCSC_INSTALL_DIR}
