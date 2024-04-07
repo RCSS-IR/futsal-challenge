@@ -39,7 +39,7 @@ Game will be in fullstate mode and there's no offside fault.
 
 📏 ***Size of field:***
 
-Length of field is now 48.0 and 28.0 for the width. 
+Length of field is now 45.0 and 28.0 for the width. 
 
 ⚽ ***Ball collision and Field's border:***
 
