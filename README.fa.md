@@ -109,6 +109,12 @@ sudo apt install build-essential libboost-all-dev autoconf automake libtool cmak
 ```
 sudo make install
 ```
+
+- بعد :
+  
+```
+sudo ldconfig
+```
 ## بیس را بسازید
 
 دانلود از قسمت Release 
