@@ -59,7 +59,7 @@ No goalkeepers are allowed and there is no catch command, try to defend your goa
 Only 3 players are allowed.
 
 ## Running the challenge locally
-First download the futsal_monitor_v1.0 and futsal_server_v1.0 from the Release directory.
+First download the futsal_monitor_v1.0 and futsal_server_v1.0 from the Release section.
 
 - Download and install the fuse package:
 ```
@@ -85,6 +85,8 @@ chmod +x futsal_monitor
 ./futsal_monitor
 ```
 ## 📚 Setup the library
+
+- Download it from Release section.
 
 ***Note that there will not be any conflicts between your original library and the challenge library***
 
@@ -112,6 +114,9 @@ Once successfully built, you can install the library file and header files to th
 sudo make install
 ```
 ## build the base 
+
+- Download it from Release section.
+  
 The latest challenge-base depends on the following libraries:
 
 - Boost 1.38 or later https://www.boost.org/
