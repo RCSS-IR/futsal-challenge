@@ -98,7 +98,7 @@ The latest Challenge-lib depends on the following libraries:
 In the case of Ubuntu 20.04 or later, execute the following commands for installing a basic development environment:
 ```
 sudo apt update
-sudo apt install build-essential libboost-all-dev autoconf automake libtool
+sudo apt install build-essential libboost-all-dev autoconf automake libtool cmake
 ```
 To build the library, execute commands from the root of source directory:
 ```
