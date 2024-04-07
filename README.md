@@ -115,7 +115,7 @@ sudo make install
 ```
 
 - Then :
-- 
+
 ```
 sudo ldconfig
 ```
