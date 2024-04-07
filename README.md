@@ -66,13 +66,15 @@ First download the futsal_monitor_v1.0 and futsal_server_v1.0 from the Release d
 sudo apt install fuse
 ```
 
+- download server.conf file from and save it in the directory that you saved futsal_server.
+
 📁 In the directory run the following command to give executive access to **futsal_server**:
 ```
 chmod +x futsal_server
 ```
 ✔️ Run the server:
 ```
-./futsal_server
+./futsal_server --include = server.conf
 ```
 📁 In the directory run the following command to give executive access to **futsal_monitor**:
 ```
