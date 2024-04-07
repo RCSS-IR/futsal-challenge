@@ -66,7 +66,7 @@ First download the futsal_monitor_v1.0 and futsal_server_v1.0 from the Release d
 sudo apt install fuse
 ```
 
-- download server.conf file from and save it in the directory that you saved futsal_server.
+- download server.conf file from [link](https://github.com/RCSS-IR/futsal-challenge/blob/main/server.conf) and save it in the directory that you saved futsal_server.
 
 📁 In the directory run the following command to give executive access to **futsal_server**:
 ```
