@@ -96,7 +96,7 @@ chmod +x futsal_monitor
 در مورد اوبونتو 20.04 یا جدیدتر، دستورات زیر را برای نصب یک محیط توسعه اولیه اجرا کنید:
 ```
 sudo apt update
-sudo apt install build-essential libboost-all-dev autoconf automake libtool
+sudo apt install build-essential libboost-all-dev autoconf automake libtool cmake
 ```
 برای ساخت کتابخانه، دستورات را از ریشه دایرکتوری منبع اجرا کنید:
 ```
