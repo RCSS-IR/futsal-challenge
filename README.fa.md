@@ -73,7 +73,7 @@ chmod +x futsal_server
 ```
 ✔️ سرور را اجرا کنید:
 ```
-./futsal_server --include = server.conf
+sudo ./futsal_server --include = server.conf
 ```
 📁 در دایرکتوری دستور زیر را برای دسترسی اجرایی به **futsal_monitor** اجرا کنید:
 ```
