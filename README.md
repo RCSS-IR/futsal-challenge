@@ -138,7 +138,7 @@ sudo apt install build-essential libboost-all-dev cmake
 ```
 mkdir build
 cd build
-cmake ..
+cmake -DCMAKE_PREFIX_PATH=$HOME/.challenge ..
 make
 ```
 
