@@ -74,7 +74,7 @@ chmod +x futsal_server
 ```
 ✔️ Run the server:
 ```
-./futsal_server --include = server.conf
+sudo ./futsal_server --include = server.conf
 ```
 📁 In the directory run the following command to give executive access to **futsal_monitor**:
 ```
