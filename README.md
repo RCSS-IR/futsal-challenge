@@ -109,7 +109,7 @@ make -j8
 ```
 - ***make***
 
-Once successfully built, you can install the library file and header files to the default installation directory (/usr/local/Challege_lib):
+Once successfully built, you can install the library file and header files to the default installation directory (home/.challenge):
 ```
 sudo make install
 ```
