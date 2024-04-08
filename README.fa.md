@@ -64,24 +64,24 @@ rcssmonitor و rcssserver اکنون برنامه های کاربردی هستن
 sudo apt install fuse
 ```
 
-فایل server.conf را از [این لینک](https://github.com/RCSS-IR/futsal-challenge/blob/main/server.conf) دانلود کنید و در دایرکتوری که futsal_server ذخیره کردید ذخیره کنید.
+فایل server.conf را از [این لینک](https://github.com/RCSS-IR/futsal-challenge/blob/main/server.conf) دانلود کنید و در دایرکتوری که futsal-challenge-server ذخیره کردید ذخیره کنید.
 
 
-📁 در دایرکتوری دستور زیر را برای دسترسی اجرایی به **futsal_server** اجرا کنید:
+📁 در دایرکتوری دستور زیر را برای دسترسی اجرایی به **futsal-challenge-server** اجرا کنید:
 ```
-chmod +x futsal_server
+chmod +x futsal-challenge-server
 ```
 ✔️ سرور را اجرا کنید:
 ```
-sudo ./futsal_server --include = server.conf
+sudo ./futsal-challenge-server --include = server.conf
 ```
-📁 در دایرکتوری دستور زیر را برای دسترسی اجرایی به **futsal_monitor** اجرا کنید:
+📁 در دایرکتوری دستور زیر را برای دسترسی اجرایی به **futsal-challenge-monitor** اجرا کنید:
 ```
-chmod +x futsal_monitor
+chmod +x futsal-challenge-monitor
 ```
 ✔️ مانیتور را اجرا کنید:
 ```
-./futsal_monitor
+./futsal-challenge-monitor
 ```
 ## 📚 کتابخانه را راه اندازی کنید
 دانلود از قسمت Release 
