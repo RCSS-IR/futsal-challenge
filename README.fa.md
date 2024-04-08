@@ -105,7 +105,7 @@ sudo apt install build-essential libboost-all-dev autoconf automake libtool cmak
 ```
 - ***make***
 
-پس از ساخت موفقیت آمیز، می توانید فایل کتابخانه و فایل های هدر را در دایرکتوری نصب پیش فرض (/usr/local) نصب کنید:
+پس از ساخت موفقیت آمیز، می توانید فایل کتابخانه و فایل های هدر را در دایرکتوری نصب پیش فرض (home/.challenge) نصب کنید:
 ```
 sudo make install
 ```
@@ -133,7 +133,7 @@ sudo apt install build-ssential libboost-all-dev cmake
 ```
 build mkdir
 cd build
-cmake ..
+cmake  -DCMAKE_PREFIX_PATH=$HOME/.challenge ..
 make -j12
 ```
 
