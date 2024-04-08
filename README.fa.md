@@ -133,7 +133,7 @@ sudo apt install build-ssential libboost-all-dev cmake
 ```
 build mkdir
 cd build
-cmake  -DCMAKE_PREFIX_PATH=$HOME/.challenge ..
+cmake -DCMAKE_PREFIX_PATH=$HOME/.challenge ..
 make -j12
 ```
 
