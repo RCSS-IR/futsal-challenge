@@ -75,6 +75,10 @@ chmod +x futsal-challenge-server
 ```
 sudo ./futsal-challenge-server --include = server.conf
 ```
+سپس دستور زیر را اجرا کنید تا کانفیگ پیشفرض مانیتور پاک شود
+```
+sudo rm $HOME/.rcssmonitor.conf
+```
 📁 در دایرکتوری دستور زیر را برای دسترسی اجرایی به **futsal-challenge-monitor** اجرا کنید:
 ```
 chmod +x futsal-challenge-monitor
