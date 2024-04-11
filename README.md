@@ -80,6 +80,10 @@ sudo ./futsal-challenge-server --include = server.conf
 ```
 chmod +x futsal-challenge-monitor
 ```
+Then run the below command to remove monitor default configs
+```
+sudo rm $HOME/.rcssmonitor.conf
+```
 ✔️ Run the monitor:
 ```
 ./futsal-challenge-monitor
