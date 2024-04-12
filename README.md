@@ -70,15 +70,15 @@ sudo apt install fuse
 
 📁 In the directory run the following command to give executive access to **futsal-challenge-server**:
 ```
-chmod +x futsal-challenge-server
+chmod +x futsal-challenge-server.AppImage
 ```
 ✔️ Run the server:
 ```
-sudo ./futsal-challenge-server --include = server.conf
+sudo ./futsal-challenge-server.AppImage --include = server.conf
 ```
 📁 In the directory run the following command to give executive access to **futsal-challenge-monitor**:
 ```
-chmod +x futsal-challenge-monitor
+chmod +x futsal-challenge-monitor.AppImage
 ```
 Then run the below command to remove monitor default configs
 ```
@@ -86,7 +86,7 @@ sudo rm $HOME/.rcssmonitor.conf
 ```
 ✔️ Run the monitor:
 ```
-./futsal-challenge-monitor
+./futsal-challenge-monitor.AppImage
 ```
 ## 📚 Setup the library
 
