@@ -69,11 +69,11 @@ sudo apt install fuse
 
 📁 در دایرکتوری دستور زیر را برای دسترسی اجرایی به **futsal-challenge-server** اجرا کنید:
 ```
-chmod +x futsal-challenge-server
+chmod +x futsal-challenge-server.AppImage
 ```
 ✔️ سرور را اجرا کنید:
 ```
-sudo ./futsal-challenge-server --include = server.conf
+sudo ./futsal-challenge-server.AppImage --include = server.conf
 ```
 سپس دستور زیر را اجرا کنید تا کانفیگ پیشفرض مانیتور پاک شود
 ```
@@ -81,11 +81,11 @@ sudo rm $HOME/.rcssmonitor.conf
 ```
 📁 در دایرکتوری دستور زیر را برای دسترسی اجرایی به **futsal-challenge-monitor** اجرا کنید:
 ```
-chmod +x futsal-challenge-monitor
+chmod +x futsal-challenge-monitor.AppImage
 ```
 ✔️ مانیتور را اجرا کنید:
 ```
-./futsal-challenge-monitor
+./futsal-challenge-monitor.AppImage
 ```
 ## 📚 کتابخانه را راه اندازی کنید
 دانلود از قسمت Release 
