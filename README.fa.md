@@ -130,7 +130,7 @@ sudo ldconfig
 در مورد اوبونتو 16.04 یا جدیدتر، دستورات زیر را برای نصب یک محیط توسعه اولیه اجرا کنید:
 ```
 sudo apt update
-sudo apt install build-ssential libboost-all-dev cmake
+sudo apt install build-essential libboost-all-dev cmake
 ```
 
 📁 برای ساخت تیم، دستورات را از ریشه دایرکتوری منبع اجرا کنید:
