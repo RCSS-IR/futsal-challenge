@@ -135,7 +135,7 @@ sudo apt install build-essential libboost-all-dev cmake
 
 📁 برای ساخت تیم، دستورات را از ریشه دایرکتوری منبع اجرا کنید:
 ```
-build mkdir
+mkdir build
 cd build
 cmake -DCMAKE_PREFIX_PATH=$HOME/.challenge ..
 make -j12
