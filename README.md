@@ -155,4 +155,4 @@ To start the challenge-base team, invoke the start script in build/bin directory
 This repository is licensed under the AGPL-3.0 license, See [LICENSE](LICENSE) for the full license text.
 
 ## Authors
-Erfan Fathi ([page](https://github.com/ErfanFathii)) & Soroush Mazloom ([page](https://github.com/SoroushGit))
+Erfan Fathi ([page](https://github.com/ErfanFathii)) & Soroush Mazloum ([page](https://github.com/SoroushMazloum))
